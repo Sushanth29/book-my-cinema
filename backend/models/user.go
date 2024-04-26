@@ -14,6 +14,10 @@ type LoginRequest struct {
 	Password string `json:"password"`
 }
 
+type EmailRequest struct {
+	Email string `json:"email"`
+}
+
 // Define a struct for JWT claims
 type Claims struct {
 	Email string `json:"email"`
@@ -35,7 +39,7 @@ type City struct {
 // Venue represents the structure of a venue entity
 type Venue struct {
 	Name            string `json:"venueName,omitempty" bson:"venue_name,omitempty"`
-	CityID          string `json:"cityId,omitempty" bson:"_id,omitempty"`
+	CityID          string `json:"cityId,omitempty" bson:"city_id,omitempty"`
 	NumberOfScreens int    `json:"numberOfScreens,omitempty" bson:"number_of_screens,omitempty"`
 	Address         string `json:"address,omitempty" bson:"address,omitempty"`
 	ContactNumber   string `json:"contactNumber,omitempty" bson:"contact_number,omitempty"`
