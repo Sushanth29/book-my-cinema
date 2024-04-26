@@ -43,7 +43,7 @@ func HandleCreateMovie(w http.ResponseWriter, r *http.Request) {
 		// Create a new S3 session
 		sess, err := session.NewSession(&aws.Config{
 			Region:      aws.String("eu-north-1"),
-			Credentials: credentials.NewStaticCredentials("AKIAU6GDZRRARI4VNZ2V", "iN/HVROUPCzUGv+tMQU859mj6v+bmn1/QKYBf6IM", ""),
+			Credentials: credentials.NewStaticCredentials("key", "access_key", ""),
 		})
 
 		if err != nil {
