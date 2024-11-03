@@ -48,7 +48,7 @@ Ensure you have Golang, Node.js, and npm installed.
 3. **Frontend Setup:**
    - Open a new terminal, navigate to the `frontend` folder:
      ```bash
-     cd ../frontend
+     cd ../frontend/src
      ```
    - Install dependencies and start the React app:
      ```bash
