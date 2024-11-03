@@ -1,0 +1,89 @@
+/* RegisterForm.css */
+
+.register-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.h3-css{
+    color: #731c04;
+    font-size: 36px;
+    margin-bottom: 7px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.h3-css:hover {
+    text-decoration: none; /* Remove underline when hovered */
+}
+
+.register-form-container {
+    width: 400px;
+    height: 430px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left; /* Align labels to the left */
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reg-btn{
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.p-css {
+    margin-top: 7px;
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+.a-css {
+    color: #731c04;
+    font-weight: bold; /* Make the text bold */
+    text-decoration: none; /* Remove underline */
+}
+
+.a-css:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+a:hover {
+    text-decoration: underline;
+}

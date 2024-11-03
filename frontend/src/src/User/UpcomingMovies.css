@@ -1,0 +1,60 @@
+.welcome-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.upcoming-movies-container {
+    width: 60%; /* Take up 50% of the width */
+    height: 70vh; /* Take up 50% of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    margin: 20px auto; /* Center horizontally and add some margin from the title */
+    padding: 20px; /* Add padding to create a container-like appearance */
+    border-radius: 10px; /* Add border radius to create rounded corners */
+    background-color: #fff; /* Add a white background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movie-item {
+    width: calc(33.33% - 20px); /* 3 movies per row with some gap */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-poster {
+    position: relative;
+}
+
+.movie-poster img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0; /* Rounded corners on top */
+}
+
+.movie-name {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0 0 10px 10px; /* Rounded corners on bottom */
+}
+
+.movie-link {
+    display: block;
+    text-decoration: none;
+    color: #000; /* Adjust link color */
+}
+
+.no-movies-msg {
+    margin-top: 20px;
+    font-weight: bold;
+}

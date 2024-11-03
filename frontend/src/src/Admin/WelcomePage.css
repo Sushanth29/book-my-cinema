@@ -1,0 +1,73 @@
+body.login-form-body  {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('../User/icons/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h3-css{
+    color: #731c04;
+    font-size: 36px;
+    margin-bottom: 7px;
+    font-family: 'Cinzel', serif;
+}
+.admin-welcome-page-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    margin-top: 20px; /* Adjust as needed */
+    font-size: 24px;
+}
+
+.admin-welcome-container {
+    width: 50%; 
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.admin-welcome-container h2,
+.admin-welcome-container p {
+    margin-bottom: 10px;
+}
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 40px;
+}
+
+.logout-btn {
+    padding: 10px 20px;
+    background-color: #1c1d1d;
+    color: #0f0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.main-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 150px;
+}

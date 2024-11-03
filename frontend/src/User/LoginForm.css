@@ -1,0 +1,96 @@
+/* LoginForm.css */
+body.login-form-body  {
+    margin: 0;
+    padding: 0;
+    height: 93vh;
+    background-image: url('./icons/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.user-login-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.h3-css{
+    color: #731c04;
+    font-size: 36px;
+    margin-bottom: 7px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.h3-css:hover {
+    text-decoration: none; /* Remove underline when hovered */
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+
+
+.login-form-container {
+    width: 400px;
+    height: 280px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add some transparency to see the background image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form-container div {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-button {
+    width: 20%;
+    padding: 10px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.p-css {
+    margin-top: 7px;
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+.a-css {
+    color: #731c04;
+    font-weight: bold; /* Make the text bold */
+    text-decoration: none; /* Remove underline */
+}
+
+.a-css:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+a:hover {
+    text-decoration: underline;
+}

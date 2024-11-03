@@ -1,0 +1,210 @@
+
+
+body.seat-form-body  {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('../User/icons/bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.parent-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.seat-layout-container {
+  width: 1000px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+.seat-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.seat {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.seat.silver {
+  background-color: ead0d0eb;
+}
+
+.seat.gold {
+  background-color: #d6c042c6;
+}
+
+.seat.recliners {
+  background-color: #800080;
+  width: 40px; 
+  height: 50px; 
+  transform: skew(-10deg) rotate(-5deg);
+  margin: 10px; 
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); 
+  padding: 10px; 
+  color: #fff; 
+  font-weight: bold; 
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.seat.selected {
+  background-color: #61dafb;
+}
+
+.select-all-btn{
+  width: 200px;
+}
+
+.seat.booked {
+  cursor: not-allowed;
+  background-color: #ccc;
+}
+
+.seat.disabled-state {
+  background-image: url('../User/icons/disability.png'); 
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  color: transparent; 
+  cursor: not-allowed;
+  position: relative; 
+}
+
+.seat.disabled-state:hover::before {
+  content: "This seat is reserved for disabled people."; 
+  position: absolute; 
+  background-color: #e5dfdf; 
+  cursor: not-allowed;
+  color: #cb1d1d; 
+  width: 150px;
+  padding: 5px;
+  border-radius: 5px; 
+  top: -70px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+}
+
+
+
+
+
+.cart-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 140px;
+  margin-top: 40px;
+}
+
+.legend-container {
+  display: flex;
+  justify-content: center;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.legend-container-white {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px; 
+  width: 500px;
+  margin-bottom: 20px; 
+}
+
+
+.legend-color-box-selected {
+  background-color: #61dafb;
+  width: 20px; 
+  height: 20px; 
+  border-radius: 4px; 
+  margin-right: 5px; 
+}
+
+.legend-color-box-booked {
+  background-color: #ccc;
+  width: 20px; 
+  height: 20px; 
+  border-radius: 4px; 
+  margin-right: 5px; 
+}
+
+.legend-color-box-silver {
+  background-color: #ead0d0eb;
+  width: 20px; 
+  height: 20px; 
+  border-radius: 4px; 
+  margin-right: 5px; 
+}
+
+.legend-color-box-gold {
+  background-color: #d6c042c6;
+  width: 20px; 
+  height: 20px; 
+  border-radius: 4px; 
+  margin-right: 5px; 
+}
+
+.legend-color-box-recliners {
+  background-color: #800080;
+  width: 20px; 
+  height: 20px; 
+  border-radius: 4px; 
+  margin-right: 5px; 
+}
+
+.legend-item span {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.screen-curve {
+  position: relative;
+  width: 70%;
+  height: 30px; /* Adjust the height of the curve */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.screen-curve path {
+  stroke-linecap: round; /* Ensure smooth rounded ends */
+}

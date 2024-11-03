@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('./icons/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 40px;
+}
+
+.logout-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.profile-container {
+    max-width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; 
+    
+}
+
+
+.user-info {
+    margin-bottom: 20px;
+}
+
+.user-info div {
+    margin-bottom: 10px;
+}
+
+.booking-history {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+   align-items: center;
+}
+
+.other-content {
+    width: 40%; /* Take up remaining 20% width */
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 100px) {
+    .poster-image {
+      width: 100%; /* Take full width on smaller screens */
+      margin-left: 0; /* Remove margin for smaller screens */
+    }
+    .c-qr-code {
+        width: 100%; /* Take full width on smaller screens */
+        margin-left: 0; /* Remove margin for smaller screens */
+      }
+    .other-content {
+      width: 100%; /* Take full width on smaller screens */
+    }
+  }
+
+.poster-image {
+    width: 15%;
+    max-width: 300px; /* Limit maximum width of the poster */
+    margin-left: auto; /* Push the poster to the right side */
+  }
+
+  
+.c-qr-code {
+    width: 15%;
+    max-width: 300px; /* Limit maximum width of the poster */
+    margin-left: auto; /* Push the poster to the right side */
+  }
+
+.booking-item div {
+    margin-bottom: 5px;
+}
+
+.no-bookings {
+    padding: 20px;
+    text-align: center;
+    color: #888888;
+    font-style: italic;
+}
+
+.error-message {
+    color: #ff0000;
+}

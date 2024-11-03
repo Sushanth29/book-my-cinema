@@ -1,0 +1,118 @@
+
+
+body.seat-form-body  {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('../User/icons/bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.parent-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.seat-layout-container {
+  width: 1000px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+.seat-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.seat {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.seat.selected {
+  background-color: #61dafb;
+}
+
+.seat.booked {
+  cursor: not-allowed;
+  background-color: #ccc;
+}
+
+.cart-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 140px;
+  margin-top: 40px;
+}
+
+.legend-container {
+  display: flex;
+  justify-content: center;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.legend-color-box-selected {
+  background-color: #61dafb;
+  width: 20px; 
+  height: 20px; 
+  border-radius: 4px; 
+  margin-right: 5px; 
+}
+
+.legend-color-box-booked {
+  background-color: #ccc;
+  width: 20px; 
+  height: 20px; 
+  border-radius: 4px; 
+  margin-right: 5px; 
+}
+
+.legend-item span {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.screen-curve {
+  position: relative;
+  width: 70%;
+  height: 30px; /* Adjust the height of the curve */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.screen-curve path {
+  stroke-linecap: round; /* Ensure smooth rounded ends */
+}

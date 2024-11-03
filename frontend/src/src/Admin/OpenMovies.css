@@ -1,0 +1,105 @@
+body.open-movies-body  {
+    margin: 0;
+    padding: 0;
+    height: 93vh;
+    background-image: url('../User/icons/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.welcome-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.top-center {
+    text-align: center;
+}
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.logout-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.open-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.movie-list-container {
+    width: 60%; /* Update width to 80% */
+    height: 70vh; /* Update height to auto */
+    display: flex;
+    overflow-y: auto; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start; /* Align items to flex-start */
+    margin: 20px auto; /* Center horizontally and add some margin */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Add border radius */
+    background-color: #fff; /* Add a white background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.movie-row {
+    width: 100%; /* Each row takes up the full width */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px; /* Add margin between rows */
+}
+
+.movie-item {
+    width: calc(33.33% - 20px); /* 3 movies per row with some gap */
+    border-radius: 10px;
+    height: 530px;
+    overflow: hidden; /* Hide overflow content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-poster {
+    position: relative;
+}
+
+.movie-poster img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0; /* Rounded corners on top */
+}
+
+.movie-name {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0 0 10px 10px; /* Rounded corners on bottom */
+}
+
+.empty-poster {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    background-color: #ccc; /* Light gray background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #666; /* Dark gray text color */
+}

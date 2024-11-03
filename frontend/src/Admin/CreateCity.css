@@ -1,0 +1,62 @@
+.city-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+.h3-css{
+    color: #731c04;
+    font-size: 36px;
+    margin-bottom: 7px;
+    font-family: 'Cinzel', serif;
+}
+
+.create-city-container {
+    width: 50%;
+    padding: 40px;
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.create-city-container h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.create-city-container input {
+    display: block;
+    width: 50%;
+    margin-bottom: 20px; /* Add vertical gap */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.create-city-container button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    width: 120px;
+}
+
+.create-city-container button:hover {
+    background-color: #0056b3;
+}
+
+.create-city-container p {
+    margin-top: 10px;
+}
